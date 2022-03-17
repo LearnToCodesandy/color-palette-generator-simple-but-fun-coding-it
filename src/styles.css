@@ -1,0 +1,14 @@
+.square {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  background-color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .square {
+    width: 100%;
+    border: 2px solid #000;
+  }
+}
